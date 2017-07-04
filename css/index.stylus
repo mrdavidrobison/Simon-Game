@@ -9,7 +9,7 @@
   border-width .5em
   float left
   margin-left 32%
-  margin-top 10%
+  margin-top 2%
   &:hover
     background-color #FFAFBC
 
@@ -24,7 +24,7 @@
   border-width .5em
   float right
   margin-right 32%
-  margin-top 10%
+  margin-top 2%
   &:hover
     background-color #00CCFF
 
@@ -57,3 +57,6 @@
   margin-top 1em
   &:hover
     background-color #90EE90
+  
+.btn-primary, .btn-danger
+  width 10em

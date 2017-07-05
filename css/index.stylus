@@ -58,5 +58,57 @@
   &:hover
     background-color #90EE90
   
+#red
+  width 200px 
+  height 200px 
+  background-color #FFAFBC
+  border-top-left-radius 100% 
+  display inline-block 
+  border-color black
+  border-style solid
+  border-width .5em
+  float left
+  margin-left 32%
+  margin-top 2%
+
+#blue
+  width 200px 
+  height 200px 
+  background-color #00CCFF
+  border-top-right-radius 100% 
+  display inline-block 
+  border-color black
+  border-style solid
+  border-width .5em
+  float right
+  margin-right 32%
+  margin-top 2%
+
+#yellow
+  width 200px 
+  height 200px 
+  background-color #C69200
+  border-bottom-left-radius 100% 
+  display inline-block 
+  border-color black
+  border-style solid
+  border-width .5em
+  float left
+  margin-left 32%
+  margin-top 1em 
+
+#lightGreen
+  width 200px 
+  height 200px 
+  background-color #90EE90
+  border-bottom-right-radius 100% 
+  display inline-block
+  border-color black
+  border-style solid
+  border-width .5em 
+  float right
+  margin-right 32%
+  margin-top 1em
+
 .btn-primary, .btn-danger
   width 10em

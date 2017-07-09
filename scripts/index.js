@@ -1,21 +1,18 @@
 $(document).ready(function(){
 
-  var count = 0;
   var colorWheel = [];
-  var min = 1;
-  var random = Math.random() * (4 - min) + min;
+  var random = Math.random() * (4 - 1) + 1;
 
+  $("#lightGreen").hide();
   $("#lightRed").hide();
   $("#lightBlue").hide();
   $("#lightYellow").hide();
-  $("#lightGreen").hide();
 
   $("#replay").click(function(){
     var colorWheel = [];
   })
 
   $("#start").click(function(){
-    count++;
     colorWheel.push(random);
     if (colorWheel[colorWheel.length - 1] = 1){
       $("#red").fadeOut(400);

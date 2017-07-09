@@ -58,7 +58,7 @@
   &:hover
     background-color #90EE90
   
-#red
+#lightRed
   width 200px 
   height 200px 
   background-color #FFAFBC
@@ -71,7 +71,7 @@
   margin-left 32%
   margin-top 2%
 
-#blue
+#lightBlue
   width 200px 
   height 200px 
   background-color #00CCFF
@@ -84,7 +84,7 @@
   margin-right 32%
   margin-top 2%
 
-#yellow
+#lightYellow
   width 200px 
   height 200px 
   background-color #C69200
@@ -110,5 +110,5 @@
   margin-right 32%
   margin-top 1em
 
-.btn-primary, .btn-danger
+.btn-primary, .btn-danger, .btn-success
   width 10em
